@@ -73,7 +73,7 @@ Works in modern browsers (Chrome, Edge, Firefox, Safari). The project uses stand
 
 ## Author
 
-[Your Name or GitHub Username]
+Developed by [Wadiyage](https://github.com/wadiyage)
 
 ## License
 
