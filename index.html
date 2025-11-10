@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day of the Week Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <form action="">
+                <label for="year"></label>
+                <input type="number" name="year" id="yearInput" placeholder="2025" required>
+                <label for="month"></label>
+                <input type="number" name="month" id="monthInput" placeholder="10" required>
+                <label for="day"></label>
+                <input type="number" name="day" id="dayInput" placeholder="31" required>
+                <button type="button" id="findDayBtn" onclick="findDayOftheWeek()">Find Day</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
